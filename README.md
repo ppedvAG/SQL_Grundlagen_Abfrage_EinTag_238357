@@ -11,3 +11,10 @@ Tag 1:
 - ORDER BY
 - TOP
 - Theorie (PK, DML, data types)
+
+Tag 2:
+- JOINs
+- CASE
+- Datum-/Zeit
+- Update | Insert | Delete
+- CREATE | ALTER | DROP
