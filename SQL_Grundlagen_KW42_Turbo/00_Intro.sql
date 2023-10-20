@@ -2,20 +2,24 @@
 	Start: 09:00
 	Ende: 12:30
 
-	Kleine Pause 15-20min
+	Kleine Pause 15-20 min
 
 	Agenda:
 
-	SELECT + FROM
-	WHERE
-	LIKE
-	JOINs
-	DISTINCT
-	ORDER BY 
-	TOP
-	UPDATE / INSERT / DELETE
+	Tag 1:
+	- SELECT + FROM
+	- WHERE
+	- LIKE
+	- DISTINCT
+	- ORDER BY 
+	- TOP
+	- Datentypen
+	- Theorie (Primary Key, Database Diagram, DML (Data Manipulation Language))
 
-	Datentypen
 
-	CASE (ggf.)
+	Tag 2:
+	- JOINs
+	- UPDATE / INSERT / DELETE
+	- CASE (ggf.)
+	- DATE-Formate
 */

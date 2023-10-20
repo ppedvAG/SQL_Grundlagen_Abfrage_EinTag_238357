@@ -14,13 +14,13 @@ SELECT * FROM Orders
 SELECT * FROM Customers -- => Selektiert ALLES aus der Tabelle "Customers"
 
 -- => Selektiert nur den CompanyName, Country und City aus der Tabelle "Customers" raus
-SELECT CompanyName, Country, City FROM Customers
+SELECT CompanyName, Country, City 
+FROM Customers
 
 -- SQL nicht case sensitive
 sElEcT cOmPanyName as Unternehmen, CiTy fRom
 
 CusTomers
-
 
 
 -- "Custom" Ausgabe in SQL
@@ -44,8 +44,6 @@ SELECT 100 as Hundert, 5 as Fuenf, 'Hallo' as Hallo
 -- ORDER BY - Sortiert Ergebnismengen
 
 /********************************************************/
-
-
 
 -- Selektiert alles von "Orders" und sortiert es nach der "Freight" absteigend (=> Von Groß nach Klein)
 SELECT * FROM Orders
@@ -79,7 +77,6 @@ ORDER BY Freight DESC
 SELECT TOP 20 * FROM Orders
 ORDER BY Freight 
 
-
 /********************************************************/
 
 -- DISTINCT - "filtert" Duplikate Ergebniszeilen
@@ -90,7 +87,7 @@ ORDER BY Freight
 --		=> Gibt alle Laender aus (auch mehrmals)
 SELECT Country FROM Customers
 
---	Lösung: DISTINCT => Duplikate herausfiltern
+--	Loesung: DISTINCT => Duplikate herausfiltern
 SELECT DISTINCT Country FROM Customers
 
 -- Auch mit "TOP" kombinierbar
